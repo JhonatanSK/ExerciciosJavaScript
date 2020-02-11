@@ -1,0 +1,25 @@
+.main{
+    border: 5px solid #000;
+    height: 95%;
+    width: 95%;
+    /* display: flex; */
+
+}
+.quadrados{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.quadrados div{
+    height: 100px;
+    width: 100px;
+    border: 5px solid #000;
+    margin: 25px;
+}
+
+button{
+    margin-left: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
