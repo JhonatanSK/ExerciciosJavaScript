@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="1" time="18.611">
+  <testsuite name="React Instagram APP" errors="0" failures="1" skipped="0" timestamp="2020-06-14T22:47:14" time="14.874" tests="12">
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Loading&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Loading&gt; component" time="0.111">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Post&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Post&gt; component" time="0.128">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Story&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Story&gt; component" time="0.107">
+      <failure>TypeError: Cannot read property &apos;duration&apos; of null
+    at updateProgress (C:\Users\Jhonatan\codenation\react-15\src\components\Story\Story.jsx:13:18)
+    at Story (C:\Users\Jhonatan\codenation\react-15\src\components\Story\Story.jsx:44:29)
+    at renderWithHooks (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:17482:13)
+    at beginWork (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\Jhonatan\codenation\react-15\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Jhonatan\codenation\react-15\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Jhonatan\codenation\react-15\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Jhonatan\codenation\react-15\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Jhonatan\codenation\react-15\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\Jhonatan\codenation\react-15\node_modules\@testing-library\react\dist\pure.js:86:25
+    at batchedUpdates$1 (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\Jhonatan\codenation\react-15\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\Jhonatan\codenation\react-15\node_modules\@testing-library\react\dist\pure.js:82:26)
+    at Object.&lt;anonymous&gt; (C:\Users\Jhonatan\codenation\react-15\src\__tests__\submit.test.js:67:31)
+    at Object.asyncJestTest (C:\Users\Jhonatan\codenation\react-15\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\Jhonatan\codenation\react-15\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Jhonatan\codenation\react-15\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\Jhonatan\codenation\react-15\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;SuccessMessage&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;SuccessMessage&gt; component" time="0.026">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Topbar&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Topbar&gt; component" time="0.02">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;User&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;User&gt; component" time="0.013">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;App&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;App&gt; component" time="0.036">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Posts&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Posts&gt; component" time="0.009">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Stories&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Stories&gt; component" time="0.012">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserForm&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserForm&gt; component" time="0.042">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserPosts&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserPosts&gt; component" time="0.012">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserProfile&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserProfile&gt; component" time="0.078">
+    </testcase>
+  </testsuite>
+</testsuites>
